@@ -86,3 +86,10 @@ bash kubectl apply -f ./k8s
 1. Prometheus collects metrics (API latency, job count, failures)
 2. Grafana dashboards visualize system health
 3. Alerts for failed jobs or high latency
+
+## Future Improvements
+
+- Add Kafka for event streaming
+- Improve scaling with HPA tuning
+- Add distributed tracing (OpenTelemetry)
+- Deploy to cloud (AWS/GCP)
