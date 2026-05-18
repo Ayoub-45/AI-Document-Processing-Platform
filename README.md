@@ -51,3 +51,25 @@
 ## How it works
 
 ![Alt Text](./Images/How_it_works.png)
+
+## Local setup
+
+1. Clone repo
+   `bash git clone https://github.com/Ayoub-45/AI-Document-Processing-Platform.git && cd ./AI-Document-Processing-Platform`
+2. Set up docker containers
+   `bash docker compose up --build`
+3. Run kubernetes manifests
+   `bash kubectl apply -f ./k8s`
+
+## CI/CD pipeline
+
+1. GitHub Actions builds Docker images
+2. Runs tests
+3. Pushes images to registry
+4. Deploys to Minikube cluster
+
+## Monitoring
+
+1. Prometheus collects metrics (API latency, job count, failures)
+2. Grafana dashboards visualize system health
+3. Alerts for failed jobs or high latency
