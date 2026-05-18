@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
   // 1. Check process.env FIRST (Docker injects here)
-  const uri = process.env.MONGODB_URI;
+  const uri = process.env.MONGO_URI;
 
   if (!uri) {
     console.error("MONGODB_URI is undefined!");
@@ -18,3 +18,4 @@ const connectDB = async () => {
     process.exit(1);
   }
 };
+export default connectDB;
