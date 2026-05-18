@@ -56,15 +56,23 @@
 
 ### Clone repo
 
-`bash git clone https://github.com/Ayoub-45/AI-Document-Processing-Platform.git && cd ./AI-Document-Processing-Platform`
+<pre><code>
+git clone https://github.com/Ayoub-45/AI-Document-Processing-Platform.git && cd ./AI-Document-Processing-Platform
+</code>
+</pre>
 
 ### Set up docker containers
 
-`bash docker compose up --build`
+<pre><code>
+docker compose up --build
+</code></pre>
 
 ### Run kubernetes manifests
 
-`bash kubectl apply -f ./k8s`
+<pre><code>
+bash kubectl apply -f ./k8s
+</code>
+</pre>
 
 ## CI/CD pipeline
 
