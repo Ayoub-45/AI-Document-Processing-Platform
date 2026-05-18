@@ -54,12 +54,17 @@
 
 ## Local setup
 
-1. Clone repo
-   `bash git clone https://github.com/Ayoub-45/AI-Document-Processing-Platform.git && cd ./AI-Document-Processing-Platform`
-2. Set up docker containers
-   `bash docker compose up --build`
-3. Run kubernetes manifests
-   `bash kubectl apply -f ./k8s`
+### Clone repo
+
+`bash git clone https://github.com/Ayoub-45/AI-Document-Processing-Platform.git && cd ./AI-Document-Processing-Platform`
+
+### Set up docker containers
+
+`bash docker compose up --build`
+
+### Run kubernetes manifests
+
+`bash kubectl apply -f ./k8s`
 
 ## CI/CD pipeline
 
