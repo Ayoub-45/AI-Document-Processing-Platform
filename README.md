@@ -23,3 +23,27 @@
 ## Architecture Overview
 
 ![Alt Text](./Images/Overview_MVP.drawio.png)
+
+## Tech Stack
+
+- Frontend: NextJS
+- Backend: Node.js (Express)
+- Database: MongoDB
+- Containerization: Docker
+- Orchestration: Kubernetes (Minikube)
+- CI/CD: GitHub Actions
+- Monitoring: Prometheus + Grafana
+- IaC: (Terraform / Kubernetes manifests)
+
+## Features
+
+- File upload system
+- Async document processing
+- Job queue system
+- Real-time job status tracking
+- Admin dashboard
+- System metrics dashboard
+- Containerized microservices
+- Kubernetes deployment
+- CI/CD pipeline
+- Monitoring & alerting
