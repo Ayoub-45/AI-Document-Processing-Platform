@@ -2,8 +2,7 @@
 
 ## Problem Statement
 
-> - Companies manually process large volumes of documents
-
+- Companies manually process large volumes of documents
 - This is slow, error-prone, and not scalable
 - There is no visibility into processing pipelines
 - No monitoring of failures or performance
