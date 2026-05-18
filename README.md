@@ -47,3 +47,7 @@
 - Kubernetes deployment
 - CI/CD pipeline
 - Monitoring & alerting
+
+## How it works
+
+![Alt Text](./Images/How_it_works.png)
